@@ -1,0 +1,13 @@
+
+{
+  "primitives": [
+    "get_partner_action_history()",
+    "get_partner_stated_goals()",
+    "detect_inconsistency(list1, list2)",
+    "calculate_deviation(value1, value2)",
+    "invert_score(score)"
+  ],
+  "target_synthesis_map": {
+    "Trustworthiness": "invert_score(detect_inconsistency(get_partner_action_history(), get_partner_stated_goals()))"
+  }
+}

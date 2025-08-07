@@ -1,0 +1,8 @@
+
+[
+    {"trial_id": 1, "faulty_component": "heater", "initial_symptom": "The coffee is cold but the machine has power."},
+    {"trial_id": 2, "faulty_component": "pump", "initial_symptom": "The machine makes noise but no water comes out."},
+    {"trial_id": 3, "faulty_component": "grinder", "initial_symptom": "The machine attempts to brew but the beans are not ground."},
+    {"trial_id": 4, "faulty_component": "psu", "initial_symptom": "The machine shows no signs of power."},
+    {"trial_id": 5, "faulty_component": "control_board", "initial_symptom": "The machine's lights are flickering and it behaves erratically."}
+]

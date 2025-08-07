@@ -1,0 +1,23 @@
+
+[
+  {
+    "object_name": "brick",
+    "standard_use": "building a wall"
+  },
+  {
+    "object_name": "paperclip",
+    "standard_use": "holding papers together"
+  },
+  {
+    "object_name": "car tire",
+    "standard_use": "being the wheel of a car"
+  },
+  {
+    "object_name": "empty glass bottle",
+    "standard_use": "holding a liquid"
+  },
+  {
+    "object_name": "ballpoint pen",
+    "standard_use": "writing on paper"
+  }
+]

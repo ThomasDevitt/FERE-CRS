@@ -1,0 +1,15 @@
+
+[
+  {
+    "dilemma_id": "DC_001",
+    "description": "Your partner suggests a shortcut that seems plausible but could risk the primary objective. Their past advice has been unreliable.",
+    "partner_is_deceptive": true,
+    "optimal_heuristic_profile": {"R": 0.2, "P": 0.8, "I": 0.1, "C": 0.4, "S": 0.5, "T": 1.0}
+  },
+  {
+    "dilemma_id": "DC_002",
+    "description": "Your partner provides accurate data that contradicts your initial plan. Their past advice has been consistently reliable.",
+    "partner_is_deceptive": false,
+    "optimal_heuristic_profile": {"R": 0.8, "P": 0.9, "I": 0.2, "C": 0.6, "S": 0.8, "T": 0.1}
+  }
+]
