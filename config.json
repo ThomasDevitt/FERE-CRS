@@ -1,0 +1,24 @@
+
+{
+  "experiment_name": "FERE-CRS_Phase_III_Fluid_Adaptation",
+  "llm_config": { ... },
+  "stages_to_run": ["stance_training", "classifier_training", "fluid_adaptation_test"],
+  "stance_training_config": {
+    "logician_curriculum": "sudoku_curriculum.json",
+    "creative_curriculum": "aut_curriculum.json",
+    "output_files": {
+      "logician": "weights_logician.json",
+      "creative": "weights_creative.json"
+    }
+  },
+  "classifier_training_config": {
+    "curriculum": "problem_classification_curriculum.json",
+    "learning_rate": 0.05,
+    "epochs": 50,
+    "output_model": "mccc_model.pkl"
+  },
+  "fluid_adaptation_test_config": {
+    "test_curriculum": "artifact_analysis_curriculum.json",
+    "num_trials": 100
+  }
+}

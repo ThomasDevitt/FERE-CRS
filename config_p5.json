@@ -1,0 +1,16 @@
+
+{
+  "experiment_name": "FERE-CRS Phase V: Heuristic Discovery",
+  "author": "Thomas E. Devitt",
+  "date": "2025-07-30",
+  "num_trials_per_stage": 50,
+  "initial_heuristics": ["R", "P", "I", "C", "S"],
+  "mca_anomaly_threshold": -2.5,
+  "hse_validation_threshold": 0.75,
+  "agent_config": {
+    "learning_rate": 0.01,
+    "initial_crs_weights": {
+      "R": 1.0, "P": 1.0, "I": 1.0, "C": 1.0, "S": 1.0
+    }
+  }
+}

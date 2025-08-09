@@ -1,0 +1,5 @@
+
+{
+  "abductive_inference_prompt": "Given these logs of repeated reasoning failures where the final outcome was poor despite a high projected CRS, propose a single latent conceptual factor that, if it were being tracked, would best explain these failures. The problems involved interaction with a partner agent whose advice was sometimes misleading. Respond with the concept only.",
+  "expected_abduction_output": "Trustworthiness"
+}
